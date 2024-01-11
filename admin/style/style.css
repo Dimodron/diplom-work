@@ -1,0 +1,112 @@
+html{
+	font-size:20px;
+}
+td{
+	text-align:center;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+ul li{
+	list-style:none;
+}
+.disable{
+	opacity:0.5;
+	pointer-events: none;
+}
+.opt_line{
+    width: 100%;
+    height: 5vh;
+    text-align: right;
+    background-color: #ecb5b559;
+    padding-top: 1vh;
+}
+.opt_line a{
+	text-decoration:none;
+	margin-right: 1vw;
+	float:right;
+}
+.opt_line form{
+	float:left;
+}
+.opt_line form input,.opt_line form select{
+	height:1rem;
+	margin-right: 0.5vw;
+}
+.output_table{
+	width:100%;
+}
+.menu{
+	width: 100%;
+    background: #6f0000;
+    height: 10vh;
+    box-shadow: 1px 1px 3px 1px #353535;
+}
+.menu ul{
+	padding-top: 3vh;
+}
+.menu li{
+	float:left;
+	margin-right:1rem;
+}
+.menu a{
+	font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+.event_themes_add{
+	padding:30px;
+	margin:0px;
+}
+.event_themes_add input{
+	min-width:20%;
+}
+.event_themes_add input[type='submit']{
+	min-width:10%;
+}
+.event_themes_add input[type='checkbox']{
+	min-width:5%;
+}
+.event_themes_add select{
+	min-width:20%;
+}
+.event_themes_add textarea{
+	min-width:100%;
+	min-height:25vh;
+}
+.event_themes_add #no_image,.event_themes_add #image{
+	float:right;
+	max-width:40vw;
+}
+.event_time_add{
+	margin:0px;
+	padding:0px;
+}
+.event_time_add li{
+	text-align:center;
+	margin-top:3vh;
+}
+.event_time_add input,.event_time_add select{
+	min-width:20%;
+}
+.event_time_add input[type='submit']{
+	min-width:10%;
+}
+.orders_add .time{
+	display:none;
+}
+.event,.time,.date{
+	float:left;
+	margin-left:2vw;
+	min-width:16vw;
+}
+.error{
+	width:100%;
+	color:red;
+	text-align:center;
+}
+.sort:hover{
+	cursor:pointer;
+	background-color:#f8e5e5;
+}
